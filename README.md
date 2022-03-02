@@ -1,2 +1,2 @@
-# Verk2
+# Verkefni2
 # Verk2
