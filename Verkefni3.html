@@ -65,9 +65,11 @@
 c
                                     <h4> <b> 3D prófun á PrusaSlicer og framkvæmd prentunar </b></h4>
                                     
-                                    <p> Ég var ekki lengi að átta mig á því að það var eitt augljóst vandamál við þessa hönnun. Ég hafði nefnilega ásamt nokkrum samnemendum mínum prófað 3D prentarann, Prusa Slicer, til þess að kortleggja þær skorður sem eru til staðar, sérstaklega „overhang“ takmörkin, en þau eru í kringum 60-70 gráður. Eins og sjá má á myndinni fyrir ofan þá myndar handfangið klárlega meira en 80 gráðu horn miðað við lóðrétt á tveimur stöðum, uppi og niðri.
-En ég komst að því að það er til einföld lausn á þessu vandamáli: supports í Prusa Slicer forritunu. Prusa prentarinn prentar þá út eins konar undirstöður sem koma í veg fyrir að plast-filamentið sígi niður vegna þyngdaraflsins. Næsta mynd sýnir hvernig Prusa supports virka:
-</p>
+                                    <p> Áður en maður 3D prentar hluti þá getur verið mikilvægt að nota prufu prent sem sýnir allar helstu skorður prentarans. Fyrir þetta verkefni ákvað ég að nota alhliða prufu prent (All in one 3D Printer test), sem er hægt að finna á þessari síðu: <a href ="https://www.thingiverse.com/thing:2656594"> All in one 3D Printer test </a> og hér er mynd af prufunni: </p> <img style="width:900px;height:900px" src = "images/3Dtest.JPG">
+                                    <p>
+                                        Eins og sjá má á myndinni er hægt að skoða ýmsar skorður sem aðstoða við teikninguna, sem dæmi má nefna brúun, lítil göt, efnisþykkt og "overhang". Þar sem hönnun kaffibollans er sáraeinföld, þá taldi ég ekki vera þörf á því að taka mið af öllum skorðum sem alhliða prufu prentið sýnir, heldur fannst mér mikilvægast að skoða bara "overhang", sem er mælikvarði á það hversu stórt horn við lárétt er hægt að mynda áður en að plastefnið fer að síga niður vegna þyngdaraflsins. Þegar búið var að prenta prufuna kom í ljós að Prusa Slicer prentarinn réði vel við overhang allt að 60-70 gráður miðað við lárétt. Ég áttaði mig strax á því að það yrði vandamál að prenta handfang bollans í ljósi þessa, þar sem mjög erfitt er að komast hjá því að efsti og neðsti hluti handfangsins myndi ekki mjög skarpt horn við lárétt, líklega verður það alltaf stærra en 60-70 gráður. Ég eyddi talsverðum tíma í að reyna að teikna handfangið í Fusion360 þannig að það myndaði ekki of stórt horn við lárétt en það reyndist erfitt og líklega hefði handfangið litið illa út ef mér hefði tekist það.  En ég komst að því að það er til einföld lausn á þessu vandamáli: supports í Prusa Slicer forritunu. Prusa prentarinn prentar þá út eins konar undirstöður sem koma í veg fyrir að plast-filamentið sígi niður vegna þyngdaraflsins. Næsta mynd sýnir hvernig Prusa supports virka:
+                                        </p>
+                                    
                                     <img style="width:900px;height:700px" src = "images/Supports.jpg">
                                     <p> Til þess að geta notað Prusa Slicer prentarann í VR3 þá þurfti að velja viðeigandi stillingar í PrusaSlicer forritinu. Valið var "Generic PETG" plast, sem er oft notað fyrir matvæli vegna þess að það hefur verið vottað sem "food safe" vegna eiginleika sinna, sjá hér: <a href= "https://www.3dprintingspot.com/post/is-petg-food-safe-what-you-must-know-about-this-material">PETG food safe</a>. <p>Svo þurfti að velja réttan prentara, valið sést á næstu mynd. Einnig sést hvernig ég valdi viðeigandi stuðning við bollann undir "Supports: Everywhere". Neðst á myndinni má líka sjá að prentið tók 3 klst. og 9m. og þyngd PETG plastsins var samtals 49,32g sem er undir hámarkinu fyrir verkefnið, sem var 100g. </p>
                                     <img style="width:900px;height:700px" src = "images/Prusa_stillingar.JPG">
@@ -76,7 +78,14 @@ En ég komst að því að það er til einföld lausn á þessu vandamáli: sup
                                         
                                     
                                     </p>
+                                  
                                       <img style="width:550px;height:900px" src = "images/bollinn.jpg">
+                                      <p> 
+                                    Næsta skref var að athuga hvort kaffibollin væri ekki örugglega nothæfur, þ.e.a.s. hvort að hann væri vatnsheldur eða ekki. Það lá því beinast við að prófa að hella kaffi ofan í hann með Nespresso vélinni heima til að tryggja að bollinn sé nothæfur (sjá mynd hér að neðan).  </p>
+                                         <img style="width:600px;height:700px" src = "images/kaffibolli.jpg"> 
+                                  <p>
+                                    Eins og sjá má að ofan þá hellti ég upp á kaffi og allt gekk eins og í sögu. Ég drakk kaffið úr 3D prentaða kaffibollanum og hef ég ekkert út á hann að setja. Ekkert lak úr bollanum og því má segja að hann sé vatnsheldur og þar af leiðandi nothæfur.
+                                    </p>
                                     <p> Til þess að einfalda mér lífið ef ég skyldi þurfa að breyta einhverjum stærðum fyrir 3D prentið, þá notaði ég parametríska hönnun eins og ég gerði í Verkefni 2. Hér fyrir neðan má sjá breyturnar sem ég skilgreindi fyrir teikninguna í Fusion 360.</p>
                                                                         <img style="width:900px;height:700px" src = "images/allarbreytur.jpg">
 								</header>
